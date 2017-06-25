@@ -1,0 +1,24 @@
+﻿@model EmotionPlatzi.web.Models.Home
+
+@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VistaSinLayout</title>
+</head>
+<body>
+    <div> 
+        <h2>@Model.WelcomeMessage</h2>
+        <h4>@Model.FooterMessage</h4>
+    </div>
+    @section Scripts{
+    <link href="~/Content/bootstrap.css" rel="stylesheet"/>
+    <link href="~/Content/site.css" rel="stylesheet" />
+    }
+</body>
+</html>
