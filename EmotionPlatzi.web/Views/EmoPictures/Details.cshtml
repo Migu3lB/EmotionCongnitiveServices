@@ -24,8 +24,13 @@
 
         <dd>
             @Html.DisplayFor(model => model.Path)
+            
         </dd>
-
+        <br />
+            <dt>Imagen</dt>
+            <dd>
+                <img src="~/@Html.DisplayFor(model => model.Path)" style="width:500px; height:500px;" />
+            </dd>
     </dl>
 </div>
 <p>
